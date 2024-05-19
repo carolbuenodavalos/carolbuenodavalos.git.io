@@ -1,0 +1,223 @@
+
+
+h1 {
+        font-family: "Jersey 20", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 60px; /* Ajuste o tamanho conforme desejado */
+        text-align: center;
+        flex-wrap: wrap;
+
+}
+
+h2 {
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #DDA0DD;
+}
+
+html { overflow-y: scroll; overflow-x:hidden; }
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background-color: #000; 
+    overflow-y: scroll;
+
+}
+
+body {
+    scale: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    color: #c7c7fd;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    z-index: absolute;
+}
+
+body a p{
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.aboutme{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.backgroundVanta{
+    background-size: cover;
+    background-position: 0%;
+}
+
+#my-background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Coloca o fundo atrás do conteúdo */
+}
+
+img {
+
+    border-radius: 50%;
+    background-color: #ddd;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    object-position: center;
+  }
+
+
+  #nav-links{
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: auto;
+}
+
+/*a, a:link{
+	text-decoration: none;
+	color: rgb(188, 5, 229);
+    font-family: "Jersey 20";
+    font-size: 30px;
+    display: inline;
+    place-items: center;
+}*/
+
+/* Adiciona preenchimento à direita e à esquerda para os itens de navegação */
+.topnav {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #00000078; /* Cor de fundo desejada */
+    /* Outros estilos, como cor do texto, margens, etc. */
+}
+
+.topnav a {
+    float: center;
+    color: #FF00FF	;
+    font-family: "Jersey 20";
+    text-align: center;
+    padding: 15px   17px;
+    text-decoration: none;
+    font-size: 25px;
+    justify-content: center;
+  }
+
+ .topnav a:hover{
+    top: 0;
+    color: #EE82EE;
+  }
+
+
+.first-class {
+    display:inline-block;
+}
+
+.img-presentation {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    padding: 20px;
+}
+
+.name{
+ color: #ee8af9;
+    
+}
+
+
+.name h1{
+
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #fab6fa; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 100 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 4s steps(40, 60),
+      blink-caret .75s step-end infinite; overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .10em solid #fab6fa; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 10 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .10em; /* Adjust as needed */
+      animation: 
+        typing 3s steps(30, end),
+        blink-caret 1s step-end infinite;
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    30% { border-color: #fab6fa }
+  }
+
+
+
+h3{
+    text-align: center;
+    color: #ee8af9;
+    margin: 30px;
+}
+
+.fa-brands .fa-github{
+    width: 30px;
+    height: 30px;
+    color: #c402b0ed;
+
+}
+
+
+aside {
+    width: 30px;
+    height: 50px;
+    padding-left: 30px;
+    margin-left: 30px;
+    float: right;
+    font-style: italic;
+    background-color: rgba(14, 13, 13, 0.432);
+  }
+
+  .social-links .fa-brands{
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        margin: 20px;
+
+
+  }
+
+  .social-links .fa-brands .fa-github .fa-linkedin .fa-instagram .fa-whatsapp{
+    width: 10px;
+    height: 10px;
+    color: #f53ee2ed;
+  }
+
+  .text {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 425px;
+    width: 400px;
+  }

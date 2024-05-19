@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang=“pt-br”>
+<head>
+    <meta charset=“utf-8”/>
+    <title>Carol Bueno </title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js'></script>
+    <script src="https://kit.fontawesome.com/80e9bb0213.js" crossorigin="anonymous"></script>
+</head>
+
+    <body>
+        <div id="my-background" class="backgroundVanta">
+            <header class="topnav">
+                    <div class="navbar" id="navbar">
+                        <a href="#" class="nav-links">Home</a>
+                        <a href="#sobremim" class="nav-links">Sobre</a>
+                        <a href="#formacao" class="nav-links">Formação</a>
+                        <a href="#portfolio" class="nav-links">Portfólio</a>
+                        <a href="#contatos" class="nav-links">Contato</a>
+                    </div>
+            </header> 
+            <main>
+            <section class="section-one">
+                <header>
+                    <div class="img-presentation">
+                        <img width=10% height=10% src="images/apresentacao.jpg" alt="img" class="aboutme"/>
+                    </div>
+                    <div class="name">
+                        <h1>Oi, sou a Carol.</h1>
+                    </div>
+                    <div class="text"> 
+                        Brasileira e paranaense, atualmente faço estágio em suporte de T.I na câmara municipal de Foz do Iguaçu.<br> Na área acadêmica faço duas faculdades, engenharia de software na Uniasselvi e Análise e desenvolvimento de sistemas na Uninter como bolsista integral pelo prouni, também possuo foco em engenharia de dados, onde sou estudante autodidata.<br>
+
+                        Acredito que estudar é a melhor saída para o crescimento pessoal e profissional, e é nisso que eu mais invisto meu tempo.<br>
+
+                        Quando estou livre gosto de ouvir musica, tocar baixo e ver filmes!
+                    </div>
+                </header>
+
+            </section>
+    
+            
+            <section id="formacao" class="second-class">
+                <header>
+                    <h2>Minha Formaçao</h2>
+                </header>
+                <div class="text">
+                    <ul type="circle" class="bullets">
+                        <li>Analise e Desenvolvimento de Sistemas| 2022-2024</li>
+                        <li>Engenharia de Software| 2024-2028</li>
+                    </ul>
+                    <h3>Idiomas:</h3>
+                    <ul type="circle">
+                        <li>Espanhol avançado</li>
+                        <li>Inglês intermediário</li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section id="portfolio" class="third-class">
+                <article>
+                    <header>
+                        <h2>Portfólio</h2>
+                    </header>
+                        <div class="text">acesse meus projetos clicando no ícone abaixo!</div>
+                        <a href="https://github.com/carolbuenodavalos" class="port-link"><i class="fa-brands fa-github fa-10x"></i></a>
+                    
+                </article>
+            </section>
+
+         <footer id="contatos"class="fifth-class">
+
+            <section id="form" class="fifth-section">
+                <h2 id="contato">Contato e redes sociais</h2>
+            <form id="contact-form" method="POST">
+                <div class="form-group">
+                    <h3> Entre em contato comigo!</h3>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+                    <div class="social-links">
+                        <h3> Me acompanhe nas redes!</h3>
+                            <a href="https://www.linkedin.com/in/caroline-bueno-637322199"> <i class="fa-brands fa-linkedin fa-2x text-purple"></i></a>
+                            <a href="https://www.instagram.com/carolbuenodavalos/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                            <a href="https://github.com/carolbuenodavalos"><i class="fa-brands fa-github fa-2x"></i></a>
+                            <a href="https://wa.me/+5545999105276"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+                    </div> 
+            </footer>
+
+
+
+            <script>
+                VANTA.NET('#my-background');
+            </script>
+            <script>
+                VANTA.NET({
+                el:"#my-background" ,
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color: 0xc12bf2,
+                backgroundColor: 0x80808,
+                points: 19.00,
+                maxDistance: 18.00
+                })
+                </script>
+        </div>
+    </main>
+    
+    </body>
+</html>
